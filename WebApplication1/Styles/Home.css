@@ -1,0 +1,321 @@
+﻿@charset"UTF-8";
+
+
+footer,header,main,nav,section,p,h1{
+
+display:block;
+padding:0;
+margin:0;
+
+}
+
+p,a,h1 {
+font-family: arial,sans-serif;
+color:#4d9e73;
+font-weight: bold;
+}
+li{
+display:inline-block;
+cursor:pointer;
+}
+html,body{
+background-color:#f1f1f1;
+margin:0;
+padding:0;
+height:196px;
+
+
+}
+
+
+
+header{
+background-color:#E8F5E9;
+height:100px;
+color:#4d9e73;
+margin:0px;
+padding:0px;
+top:0;
+left:0;
+}
+header header{
+width:960px;
+height:100%;
+margin-left:auto;
+margin-right:auto;
+
+}
+header header h1{
+vertical-align:middle;
+line-height:100px;
+font-family: arial,sans-serif;
+color:#009688;
+font-weight: bold;
+text-align:center;
+
+}
+
+
+nav{
+background-color:#4d9e73;
+width:100%;
+height:40px;
+}
+
+nav nav{
+width:960px;
+height:100%;
+margin-left:auto;
+margin-right:auto;
+}
+
+nav ul{
+list-style:none;
+margin:0;
+padding:0;
+height:100%;
+line-height:40px;
+}
+nav ul li{
+float:left;
+padding-right:5px;
+background-color:#4d9e73;
+height:100%;
+width:100px;
+border-right:1px solid white;
+text-align:center;
+height:40px;
+line-height:40px;
+position:relative;
+}
+nav a  {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+nav ul li:hover{background-color:#ff6a00;}
+
+nava{
+color:white;
+text-decoration:none;
+
+}
+.selected{
+
+background-color: #ff6a00;
+}
+
+.subMenu ul{
+position:absolute;
+top:40px;
+left:0;
+visibility:hidden;
+}
+
+.subMenu ul li{
+float:none;
+width:150px;
+text-align:left;
+padding-left:5px;
+border-top:1px solid white;
+}
+.subMenu:hover  > ul
+{
+visibility:visible;
+
+}
+.subMenu2 ul{
+    
+    position:absolute;
+    left:161px;
+    top: -1px;
+    visibility:hidden; 
+    
+}
+
+.subMenu2:hover ul  
+{
+visibility:visible;
+
+}
+
+
+#MainBody{
+background-color:white;
+width:960px;
+height:589%;
+margin-left:auto;
+margin-right:auto;
+overflow:auto;
+text-align:center;
+min-height: 1100px;
+align:center;
+}
+
+
+footer{
+background-color:#F1F8E9;
+width:960px;
+height:150px;
+margin-left:auto;
+margin-right:auto;
+padding-top: 20px;
+
+}
+footer p{
+    text-align:center;
+    margin: 0 10px;
+    padding-bottom: 4px;
+    
+}
+
+
+/* clock and buttons */
+
+
+#Clock, #Clock2{
+/*-background-color:red;*/
+text-align:center;
+font-size:230px;
+margin:0 0;
+padding: 0 0;
+-webkit-border-radius:5px;
+-webkit-touch-callout:none;
+-webkit-user-select:none;
+-khtml-user-select:none;
+-moz-user-select:none;
+-ms-user-select:none;
+user-select:none;
+color:#4d9e73;
+display: inline-block;
+-webkit-border-radius:5px;
+font-weight: bold;
+font-family: arial,sans-serif;
+text-shadow: #bbb 11px 11px 33px;
+}
+
+.Intro{
+
+text-align:center;
+font-size:40px;
+margin: 0 0;
+padding: 0px 0px;
+margin-top:80px;
+margin-bottom:10px;
+display: inline-block;
+color: #009688;
+
+
+}
+
+.CountdownMenu{
+top:50px;
+margin:auto;
+display:table;
+margin-top:50px;
+}
+
+
+.NumberBtn TR TD{
+-webkit-touch-callout:none;
+-webkit-user-select:none;
+-khtml-user-select:none;
+-moz-user-select:none;
+-ms-user-select:none;
+user-select:none;
+-webkit-border-radius:5px;
+border-radius: 5px;
+-moz-border-radius:5px;
+width:100px;
+margin:5px;
+border: 1px solid #ddd;
+background-color:#009688;
+font-size:29px;
+cursor:pointer;
+padding:8px;
+text-align:center;
+float:left;
+color: white;
+}
+
+.NumberBtn TR TD:hover{
+background-color:#ff6a00;
+}
+.NumberBtn TR TD:active{
+background-color:#fab27e;
+}
+
+
+.ActionButton TR TD{
+-webkit-touch-callout:none;
+-webkit-user-select:none;
+-khtml-user-select:none;
+-moz-user-select:none;
+-ms-user-select:none;
+user-select:none;
+-webkit-border-radius:5px;
+border-radius: 5px;
+-moz-border-radius:5px;
+width:130px;
+margin:5px;
+border: 1px solid #ddd;
+background-color:#009688;
+font-size:29px;
+cursor:pointer;
+padding:8px;
+text-align:center;
+float:left;
+color: white;
+
+}
+.ActionButton TR TD:hover{
+background-color:#ff6a00;
+}
+.ActionButton TR TD:active{
+background-color:#fab27e;
+}
+
+.ActionButtonAutoSet TR TD{
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+.SmallH1{
+    text-align:center;
+    padding-left: 20px;
+    font-size:40px;
+    color: #009688;
+    font-weight: bold;
+   
+
+    
+}
+
+
+.button{
+-webkit-touch-callout:none;
+-webkit-user-select:none;
+-khtml-user-select:none;
+-moz-user-select:none;
+-ms-user-select:none;
+user-select:none;
+-webkit-border-radius:5px;
+border-radius: 5px;
+-moz-border-radius:5px;
+margin:1px;
+border: 1px solid #ddd;
+background-color:#009688;
+font-size:19px;
+cursor:pointer;
+padding:8px;
+text-align:center;
+float:center;
+color: white;
+}
+
+.button:hover{
+background-color:#ff6a00;
+}
+.button:active{
+background-color:#fab27e;
+}
